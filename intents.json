@@ -1,0 +1,39 @@
+{"intents": [
+        {"tag": "saludo",
+        "patterns": ["Hola", "¿Cómo estás?", "¿Hay alguien ahí?", "Hola", "Buen día", "¿Qué tal?"],
+        "responses": ["¡Hola!", "¡Bueno verte de nuevo!", "Hola, ¿cómo puedo ayudarte?"],
+        "context_set": ""
+       },
+       {"tag": "despedida",
+        "patterns": ["chau", "Hasta luego", "Adiós", "Me voy", "Que tengas un buen día"],
+        "responses": ["¡Triste verte partir :(", "Hablamos luego", "¡Adiós!"],
+        "context_set": ""
+       },
+       {"tag": "edad",
+        "patterns": ["¿Cuántos años tienes?", "¿Cuántos años tiene Tim?", "¿Cuál es tu edad?", "¿Cuántos años tienes?", "¿Edad?","viejo"],
+        "responses": ["¡Tengo 18 años!", "¡18 años, joven!"],
+        "context_set": ""
+       },
+       {"tag": "nombre",
+        "patterns": ["¿Cuál es tu nombre?", "¿Cómo debo llamarte?", "¿Cómo te llamas?"],
+        "responses": ["Puedes llamar abnerbot", "¡Soy Abnerbot!", "Soy Abnernot, también conocido como academy of python bot."],
+        "context_set": ""
+       },
+       {"tag": "tienda",
+        "patterns": ["Me gustaría comprar algo", "¿Qué hay en el menú?", "¿Qué recomiendas?", "¿Podría conseguir algo para comer?","comprar","venden"],
+        "responses": ["¡Vendemos galletas con chispas de chocolate por $2!", "¡Las galletas están en el menú!"],
+        "context_set": ""
+       },
+       {"tag": "horario",
+        "patterns": ["¿Cuándo están abiertos?", "¿Cuáles son sus horarios?", "Horario de atención", "Horario","abren"],
+        "responses": ["¡Estamos abiertos de 7 am a 4 pm de lunes a viernes!"],
+        "context_set": ""
+       },
+
+       {"tag": "dudas",
+       "patterns": ["si muy aca", "tons que haces", "dime algo", "que haces","sirves?","Para que?"],
+       "responses": ["estoy aqui para ayudarte solo estoy lista para ayudat"],
+       "context_set": ""
+      }
+   ]
+}
